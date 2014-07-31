@@ -1,3 +1,5 @@
+/* Twitter @lsoudade 
+ * Github https://github.com/lsoudade/jquery-loader */
 (function($) {
     $.fn.loader = function(options) {
         
