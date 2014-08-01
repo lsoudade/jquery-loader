@@ -1,4 +1,4 @@
-jquery-loader
+jquery-loadingLayer
 =============
 
 jQuery plugin
@@ -28,7 +28,7 @@ Puts a layer on an element, for example on an ajax form after having submit it
                 type: 'POST',
                 data: $(this).serialize(),
                 beforeSend: function( xhr ) {
-                    $(this).loader({
+                    $(this).loadingLayer({
                         // bgColor: '#F6F6F6', 
                         // opacity: '0.5', 
                         classname: 'my-form-custom-id', 
