@@ -1,9 +1,9 @@
-/* https://github.com/lsoudade/jquery-loader */
+/* https://github.com/lsoudade/jquery-loadingLayer */
 (function($) {
-    $.fn.loader = function(options) {
+    $.fn.loadingLayer = function(options) {
         
         var defaults = { 
-          classname: 'jquery-loader',
+          classname: 'jquery-loadingLayer',
           icon: '',
           bgcolor: '#F6F6F6',
           opacity: '0.5'
